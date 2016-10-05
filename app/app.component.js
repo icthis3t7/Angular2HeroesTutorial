@@ -17,19 +17,19 @@ var AppComponent = (function () {
             name: 'Windstorm'
         };
     }
+    AppComponent = __decorate([
+        core_1.Component({
+            selector: 'my-app',
+            template: "\n  <h1>{{title}}</h1>\n  <h2>{{hero.name}} details!</h2>\n  <div><label>id: </label>{{hero.id}}</div>\n  <div>\n    <label>name: </label>\n    <input [(ngModel)]=\"hero.name\" placeholder=\"name\">\n\n  </div>\n  "
+        }), 
+        __metadata('design:paramtypes', [])
+    ], AppComponent);
     return AppComponent;
 }());
 exports.AppComponent = AppComponent;
 var Hero = (function () {
     function Hero() {
     }
-    Hero = __decorate([
-        core_1.Component({
-            selector: 'my-app',
-            template: "\n  <h1>{{title}}</h1>\n  <h2>{{hero.name}} details!</h2>\n  <div><label>id: </label>{{hero.id}}</div>\n  <div>\n    <label>name: </label>\n    <input [(ngModel)]=\"hero.name\" placeholder=\"name\">\n\n  </div>\n  "
-        }), 
-        __metadata('design:paramtypes', [])
-    ], Hero);
     return Hero;
 }());
 exports.Hero = Hero;
