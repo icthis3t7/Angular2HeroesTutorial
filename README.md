@@ -9,9 +9,11 @@ Super simple: just start npm in the root directory
 
 ```sh
 npm install
+```
 
 If you get an error, it's probably because you don't have typings
 
 ```sh
 npm run typings install
 npm start
+```
